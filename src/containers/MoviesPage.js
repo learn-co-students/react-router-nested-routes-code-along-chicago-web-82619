@@ -4,6 +4,7 @@ import { Route } from 'react-router-dom';
 import MoviesList from '../components/MoviesList';
 
 const MoviesPage = ({ match, movies }) => (
+  console.log(match)
   <div>
     <MoviesList movies={movies} />
   </div>
